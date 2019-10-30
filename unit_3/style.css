@@ -1,0 +1,17 @@
+h1 {
+	color: #2A5E8C;
+}
+body {
+	color: #6085A6;
+	background-color: #F2F2F2; 
+	font-family: arial;
+	background-image: src="images/library.jpg"; 
+}
+#slogan {
+  font-style: italic;
+} 
+
+#topmenu {
+  font-style: bold;
+} 
+
