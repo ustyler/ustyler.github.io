@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Faustina|Montserrat&display=swap');
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+h1 {
+	color: #2A5E8C;
+	font-family: 'Faustina', sans-serif;
+}
+h2, h3 {
+	color: #2A5E8C;
+	font-family: 'Faustina', sans-serif;
+}
+body {
+	color: #6085A6;
+	background-color: #F2F2F2; 
+	font-family: 'Montserrat', sans-serif;
+	background-image: src="images/library.jpg"; 
+}
+#slogan {
+  font-style: italic;
+} 
+
+#topmenu {
+  font-style: bold;
+} 
+
