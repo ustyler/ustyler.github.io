@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Faustina|Montserrat&display=swap');
+
+header {
+	background-color: #B0C6D9;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+nav {
+	background-color: #B0C6D9;
+		padding: 20px;
+
+}
+
+img {
+	width: 25%;
+	float: right;
+	clear: both;
+}
+
+#intro {
+	background-color: #F2F2F9;
+	background-image: url('images/onlinelearner.jpg');
+	background-size: cover;
+	padding: 100px;
+	text-align: right;
+
+
+}
+
+#who_what {
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+#what {
+    background-color: #F2F2F2;
+    border: 0px black solid;
+    padding: 20px;
+    float: left;
+    width: 46%;
+}
+
+#who {
+	background-color: #F2F2F2;
+	border: 0px black solid;
+	padding: 20px;
+	float: right;
+	width: 46%;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+a:hover {
+	text-decoration-color: #F2B3B3;
+}
+
+footer {
+	background-color: #B0C6D9;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#reasons_why {
+	background-color: #F2F2F2;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+h1 {
+	color: #2A5E8C;
+	font-family: 'Faustina', sans-serif;
+}
+h2, h3 {
+	color: #2A5E8C;
+	font-family: 'Faustina', sans-serif;
+}
+body {
+	color: #6085A6;
+	background-color: #F2F2F2; 
+	font-family: 'Montserrat', sans-serif; 
+}
+#slogan {
+  font-style: italic;
+} 
+
+#topmenu {
+  font-style: bold;
+} 
+
