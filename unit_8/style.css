@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+header {
+	background-color: #FFF;
+	padding: 2% 5% 5%;
+
+}
+
+
+#logo {
+	width: 38%;
+	float: left;
+	clear: both;
+}
+body {
+	color: #2A5E8C;
+	background-color: #F2F2F2; 
+	font-family: 'Quicksand', sans-serif;
+	padding: 0;
+	margin: 0; 
+	font-size: 14px;
+}
+a:hover {
+	text-decoration-color: #F2B3B3;
+}
+
+footer {
+	
+	padding: 1%;
+	text-align: right;
+}
+#topmenu {
+	float: right;
+	padding: 3% 3% 1%;
+	font-size: .8em;
+}
+#slogan {
+	font-size: 2.5em;
+  font-weight: bold;
+} 
+
+#intro {
+	background-color: #F2F2F9;
+	background-image: url('images/laptop3.jpg');
+	background-size: cover;
+	padding: 1% 30% 22%;
+	text-align: center;
+
+
+}
+#sectionone {
+	background-color: #6085A6;
+	padding: 2% 10%;
+	color: white;
+	text-align: center;
+}
+#philosophy {
+	padding: 0% 10%;
+
+}
+.allshapes {
+	width: 40%;
+	
+	;
+}
+
+}
+
+#who_what {
+    padding: 3% 10% 1%;
+    
+    text-align: center;
+}
+
+#what {
+  
+    border: 0px black solid;
+    padding: 0% 1%;
+    float: left;
+    width: 47%;
+}
+
+#who {
+	
+	border: 0px black solid;
+	padding: 0% 1%;
+	float: left;
+	width: 47%;
+}
+#approach { 
+text-align: center;
+background-color: #C9E2F2;
+
+padding: 3% 10% 4%;
+
+ }
+ #applist {
+ 	padding: 0% 38%;
+ 	text-align: left;
+ }
+
+.column {
+  float: left;
+  width: 23%;
+  padding: 0% 1%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.shape {
+width: 15%;
+}
+
+#reasons_why {
+	background-color: #F2F2F2;
+	color: #2A5E8C;
+	border: 0px black solid;
+	padding: 2%;
+	text-align: center;
+}
+
+#boutique {
+
+}
+#whythey { 
+text-align: center;
+padding: 0;
+
+ }
+
+
+h1 {
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.8em;
+}
+h2 {
+	
+	font-family: 'Quicksand', sans-serif;
+	padding: 0px 0px 1px;
+	font-size: 1.2em;
+}
+h3 {
+	
+	font-family: 'Quicksand', sans-serif;
+	padding: 1%;
+	font-size: 1.2em;
+}
+
+@media screen and (max-width: 1056px) {
+	#slogan {
+	font-size: 2.0em;
+  font-weight: bold;
+
+}
+@media screen and (max-width: 956px) {
+	#slogan {
+	font-size: 1.8em;
+	font-weight: 900;
+  font-weight: bold;
+}
+.column {
+  float: none;
+  width: 93%;
+  padding: 0% 1%;
+}
+.shape {
+width: 5%;
+}
+}
+
+@media screen and (max-width: 760px) {
+	#slogan {
+	font-size: 1.8em;
+	font-weight: 900;
+  font-weight: bold;
+}
+#intro {
+	
+	padding: 1% 20% 22% 30%;
+	text-align: center;
+}
+}
+
+@media screen and (max-width: 696px) {
+	#slogan {
+	font-weight: 900;
+	font-size: 1.8em;
+}
+
+  #intro {
+	padding: 2% 2% 50% 35%;
+}
+#logo {
+	width: 58%;
+	float: none;
+}
+
+#topmenu {
+	float: none;
+	padding: 3% 3% 1%;
+	font-size: .8em;
+}
+
+#applist {
+ 	padding: 0% 28%;
+ 	text-align: left;
+ }
+#what {
+  
+   
+    padding: 0% 1%;
+    float: none;
+    width: 97%;
+}
+
+#who {
+	
+	border: 0px black solid;
+	padding: 0% 1%;
+	float: none;
+	width: 97%;
+}
+
+
+}
+@media screen and (max-width: 484px) {
+	#slogan {
+	font-weight: bolder;
+	font-size: 1.3em;
+}
+
+  #intro {
+	padding: 0% 15% 50% 30%;
+}
+	#philosophy {
+	display: none;
+}
+@media screen and (max-width: 399px) {
+	#slogan {
+	font-weight: bolder;
+	font-size: 1.0em;
+}
+
+  #intro {
+	padding: 0% 15% 50% 30%;
+}
+}
